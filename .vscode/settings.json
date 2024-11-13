@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
         "hackathonui",
+        "Liste",
         "signalr",
         "tanstack",
+        "tseslint",
         "zustand"
     ],
     "editor.formatOnSave": true,
