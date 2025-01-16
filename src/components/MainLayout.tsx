@@ -1,6 +1,7 @@
 import React from 'react';
 import { CssBaseline, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import { Outlet, Link } from 'react-router-dom';
+import CardGrid from './CardGrid';
 
 const MainLayout: React.FC = () => (
   <div style={{ display: 'flex' }}>
@@ -13,6 +14,7 @@ const MainLayout: React.FC = () => (
       </List>
     </Drawer>
     <main style={{ padding: '1rem', marginLeft: 240 }}>
+      <CardGrid />
       <Outlet />
     </main>
   </div>
